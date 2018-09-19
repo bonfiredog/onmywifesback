@@ -1,0 +1,1984 @@
+@font-face {
+    font-family: 'sunshine_in_my_soulregular';
+    src: url('sunshine_in_my_soul-webfont.eot');
+    src: url('sunshine_in_my_soul-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sunshine_in_my_soul-webfont.woff2') format('woff2'),
+         url('sunshine_in_my_soul-webfont.woff') format('woff'),
+         url('sunshine_in_my_soul-webfont.ttf') format('truetype'),
+         url('sunshine_in_my_soul-webfont.svg#sunshine_in_my_soulregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arabellaregular';
+    src: url('arabella-webfont.eot');
+    src: url('arabella-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arabella-webfont.woff2') format('woff2'),
+         url('arabella-webfont.woff') format('woff'),
+         url('arabella-webfont.ttf') format('truetype'),
+         url('arabella-webfont.svg#arabellaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, object, iframe, fieldset {
+  border: 0;
+}
+
+body{
+	background-image: url('assets/copperclean.png');
+	font-family: Georgia, serif;
+	font-size: 100%;
+}
+
+a {
+	text-decoration:underline;
+	color:#DCA546;
+	}
+
+ol, ul {
+  list-style: none;
+}
+
+a:link{
+	text-decoration:underline;
+	color:#DCA546;
+}
+
+a:active{
+	text-decoration:underline;
+	color:#DCA546;
+}
+
+a:visited{
+	text-decoration:underline;
+	color:#DCA546;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#FFDC9F;
+}
+
+#headerbar{
+	width:100%;
+	max-height:25%;
+	background-color:none;
+	margin-bottom:2em;
+	text-align:center;
+}
+
+#cairnlabel {
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+    width: 18%;
+    height: auto;
+    position: absolute;
+    left: 24%;
+    top: 11%;
+}
+
+#cairnlabel img{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#menuitems {
+    margin-top: 1em;
+    width: 100%;
+    height: auto;
+}
+
+#menuitems img{
+	width:100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer {
+	width:100%;
+	margin-top:2em;
+}
+
+
+#footergoldner{
+	width:30vw;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+#footergoldner img{
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+::-webkit-scrollbar {
+      width: 11px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      background-color: #3E2502;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #7a5229; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #3E2502;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: #3E2502;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+#descriptionbox {
+	background-color:none;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	margin-bottom:0.6em;
+}
+
+#descriptionbox img {
+	margin-left:auto;
+	width:100%;
+	margin-right:auto;
+	}
+
+small {
+    font-size:0.7em;
+}
+
+#abouttextimage {
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    overflow:hidden;
+    width: 55%;
+    margin-top: 5%;
+}
+
+#abouttextimage img {
+    width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+#abouttext figcaption {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    overflow: hidden;
+    height: 3vh;
+}
+	
+#menutext {
+	width:50vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:3vw;
+	color:#FFED90;
+	text-shadow: 3px 3px 2px #000000;
+	text-align:center;
+}
+
+#paperupload iframe {
+  border: 1px solid #979ea1;
+  border-radius: 3px;
+  margin: 0 0 1em;
+}
+
+ #sidebar {
+    width: 24%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 59%;
+    top: 178%;
+}
+
+#abouttext ul li {
+overflow:hidden;	
+}
+
+#cachetitlewords {
+    
+    font-family:'sunshine_in_my_soulregular';
+       color: white;
+}
+  
+#paperwriting {
+    font-family: 'arabellaregular' ;
+    position: absolute;
+    left: 11%;
+    top: 20%;
+    font-size:1em;
+    -ms-transform: rotate(-5.9deg);
+    -webkit-transform: rotate(-5.9deg);
+    transform: rotate(-5.9deg);
+    text-align:left;
+    width:76%;
+    font-size: 1.6em;
+}
+  
+ #paperupload {
+	width:100%;
+	position:relative;
+    
+}
+
+#paperupload img{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#papermessage{
+	position:absolute;
+	top:10%;
+	left:4%;
+	width:40%;
+	-ms-transform: rotate(-5.5deg); /* IE 9 */
+    -webkit-transform: rotate(-5.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5.5deg);
+}
+
+#papermessage img{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#paperupload iframe{
+    width: 76%;
+    text-align: center;
+    height: 17.5%;
+    margin: 0 auto;
+    position: absolute;
+    top: 43%;
+    left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+#browsefiles {
+	width:60%;
+	margin: 0 auto;
+	position:absolute;
+	top:72%;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	-ms-transform: rotate(-5.5deg); /* IE 9 */
+    -webkit-transform: rotate(-5.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5.5deg);
+}
+
+#browsefiles img{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+  #main {
+    padding: 1em 1em 0 0;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  }
+
+.shoutbox_content{
+text-shadow: 2px 2px 2px #000;	
+}
+
+#copperchat{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+#copperchat img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:100%;
+}
+
+#chattitle {
+	position:absolute;
+	overflow:hidden;
+	top: 4%;
+	left:0;
+	right:0;
+	width:80%;
+	margin-bottom:0.5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#chattitle img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:100%;
+	
+}
+
+#shoutbox{
+	width:80%;
+	position: absolute;
+	top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	height:55%;
+	border: 2px inset #7a5229;
+	border-radius: 3px;
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#3E2502;
+	left:0;
+	right:0;
+	font-size:0.9em;
+	text-shadow: 2px 2px #000000;
+	color:#DCA546;
+	font-family:Georgia, serif;
+    opacity:0.9;
+}
+
+#shoutbox .message {
+  margin: 0 0 .25em 0;
+}
+
+#shoutbox-input {
+  margin: 0 0 0.2vh 0;
+}
+
+#shoutbox-options {
+	margin-left:auto;
+	margin-right:auto;
+    opacity:0.9;
+}
+
+#shoutbox-options label {
+  float: left;
+  overflow: hidden;
+  border-radius: 3px;
+  font-size:0.7em;
+  font-family:Georgia, serif;
+  margin: 0 0.5em 0.5em 0;
+  padding: 0.5em 1em;
+  box-shadow: 2px 2px 3px #000000;
+}
+#shoutbox-options label input {
+  margin: 0 .5em 0 0;
+}
+#shoutbox-options .bg-black {
+  background: #000000;
+}
+#shoutbox-options .bg-blue {
+  background: #1388FF;
+}
+#shoutbox-options .bg-green {
+  background: #17D117;
+}
+#shoutbox-options .bg-orange {
+  background: #FFBD5B;
+}
+#shoutbox-options .bg-red {
+  background: #FF8668;
+}
+
+#sb_form{
+    width: 33%;
+    position: absolute;
+    left: 32%;
+    top: 166%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newcache {
+    width: 75%;
+    height: auto;
+    background-color:#3E2502;
+	border: 2px inset #DCA546;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color:#DCA546;
+    text-shadow: 2px 2px 2px #000;
+    font-size:1em;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+   .cachetitle {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    margin-top: 5%;
+    width: 97%;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0.9;
+    color: #DCA546;
+    text-shadow: 2px 2px #000000;
+}
+
+#cachesubtitle {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    opacity: 0.9;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
+}
+
+
+#cachelist
+{
+	font-family: Georgia, serif;
+    font-size: 1em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+#cachelist th
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 1% 0.8%;
+    border-bottom: 2px solid #DCA546;
+}
+
+#cachelist td
+{
+    border-bottom: 1px solid #DCA546;
+    color: #DCA546;
+    padding: 3% 0.88%;
+    font-size:0.8em;
+    
+}
+
+#cachelist thead {
+    opacity:0.9;
+}
+
+#cachelist tbody {
+    opacity:0.9;
+}
+
+#cachelist tr td:first-child
+{
+    padding-right: 16%;
+    text-align: left;
+    width:57%;
+}
+
+#cachelist tr td:second-child
+{
+    padding-right:5%;
+    width:5%;
+}
+
+
+#shoutbox-input input {
+  height: 4vh;
+  border: 2px ridge #7a5229;
+  background-image:url('assets/textentrybackground.png');
+  border-radius: 3px;
+  margin-bottom:0.5em;
+  width:20vw;
+  padding: 0 0.5em;
+  font-family: Georgia, serif;
+  font-size:0.8em;
+  color:#DCA546;
+  text-shadow: 2px 2px 2px #000;	
+  box-shadow: 2px 2px 3px #000000;
+    opacity:0.9;
+}
+
+#shoutbox-input .button {
+	width:5vw;
+	background-image:url('assets/textentrybackground.png');
+	font-family: Georgia, serif;
+	color:#DCA546;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 0.8em;
+	box-shadow: 2px 2px 3px #000000;
+	overflow:hidden;
+	margin-bottom:4vh;
+    opacity:0.9;
+}
+
+#inklegend{
+	font-family:Georgia, serif;
+	font-size:1em;
+	color:#DCA546;
+	text-shadow: 2px 2px 2px #000;
+	margin-bottom:1em;
+	text-align:left;
+    opacity:0.9;
+
+}
+
+  #shoutbox-input{
+  overflow:hidden;
+  }
+
+  .red {
+  color: #FF8668;
+}
+
+.green {
+  color: #17D117;
+}
+
+.blue {
+  color: #1388FF;
+}
+
+.orange {
+  color: #FFBD5B;
+}
+  
+#aboutbox {
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+    padding:5%;
+	height:auto;
+	background-color:#3E2502;
+	border: 2px inset #DCA546;
+}
+
+#abouttext {
+line-height: 110%;
+    text-align: justify;
+    font-size: 0.9em;
+    text-shadow: 2px 2px #000000;
+    color: #DCA546;
+    font-family: Georgia, serif;
+    opacity: 0.9;
+}
+
+#abouttext ul {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    line-height: 123%;
+}
+  
+  #ulabout {
+  width:71%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:31px;
+  margin-bottom:31px;
+  border: 2px ridge #7a5229;
+  padding:15px 15px 15px 15px;
+  }
+  
+  #ulabout2 {
+  width:75%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:15px 15px 15px 15px;
+  }
+  
+  #fileuploadwarning {
+  border: 2px ridge #7a5229;
+  padding: 15px 15px 15px 15px;
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  }
+  
+#abouttext link {
+	text-decoration:underline;
+} 
+  
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+header, footer, footer, nav, section, article, hgroup, figure {
+  display: block;
+}
+
+legend {
+  display: none;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: auto;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: auto;
+  margin: 0 0 0.25em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: auto;
+  margin: 0 0 0.25em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0 0 1em;
+}
+
+.current {
+  color: white;
+}
+
+#top-nav a {
+  display: block;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+input {
+  font-size: .75em;
+}
+
+label {
+  color: white;
+  font-size: .75em;
+}
+
+.message date {
+  font-size: .625em;
+  color: #979ea1;
+}
+.message name {
+  font-size: .75em;
+  font-weight: bold;
+}
+.message data {
+  font-size: .75em;
+}
+
+#logo {
+  float: left;
+  overflow: hidden;
+}
+
+#menu-icon {
+  float: right;
+  width: 36px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#top-nav {
+  clear: both;
+  display: none;
+  padding: 1em 0 0 0;
+}
+
+#thanks {
+  float: right;
+}
+
+input {
+  height: 3em;
+  border: 1px solid #979ea1;
+  border-radius: 3px;
+  margin: 0 0 1em;
+  padding: 0 0.5em;
+}
+
+input[type=radio] {
+  height: 1.3em;
+  margin: 0 .5em 0 0;
+}
+
+.button {
+  background: #979ea1;
+  border: 0;
+  color: white;
+  margin: 0;
+}
+
+.button:active {
+  background: #7c8589;
+  color: #cccccc;
+  -webkit-box-shadow: #4b5154 0px -3px 0px inset;
+  -moz-box-shadow: #4b5154 0px -3px 0px inset;
+  box-shadow: #4b5154 0px -3px 0px inset;
+}
+
+.card {
+  background-color:#3E2502;
+  border-radius: 3px;
+  line-height:150%;
+  border:1px ridge #7a5229;
+  -webkit-box-shadow: #000000 3px 3px 2px;
+  -moz-box-shadow: #000000 3px 3px 2px;
+  box-shadow: #000000 3px 3px 2px;
+  margin: 0 0 1em;
+  padding: 1em;
+  	font-size:0.9em;
+	text-shadow: 2px 2px #000000;
+	color:#DCA546;
+	padding: 30px 30px 30px 30px;
+	text-align:justify;
+	font-family:Georgia, serif;
+}
+
+.container {
+  height: 100%;
+  padding: 1em;
+  width: 100%;
+}
+
+.list table {
+  width: 100%;
+}
+.list table thead {
+  text-align: left;
+}
+.list table tbody tr {
+  height: 4em;
+  vertical-align: middle;
+}
+.list table tbody tr:hover {
+  background: none;
+}
+.list table .m, .list table .s, .list table .t {
+  display: none;
+}
+
+td .s{
+width:10%;
+}
+
+td .m{
+width:20%;
+}
+
+td .n{
+width:59%;
+padding-right:4%;
+}
+
+td {
+	margin-right:20px;
+	
+}
+
+tr {
+	margin-bottom:20px;
+}
+
+
+@media screen and (min-width: 801px) {
+  #logo {
+    margin: 0 2em 0 0;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+
+  #top-nav {
+    clear: none;
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+  }
+  #top-nav ul li {
+    float: left;
+  }
+  #top-nav ul li a {
+    margin: 0 1em 0 0;
+    padding: 0;
+  }
+
+  .to-top {
+    display: none;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
+
+  .list table .m,
+  .list table .s,
+  .list table .t {
+    display: table-cell;
+  }
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+
+#headerbar{
+	max-height:20%;
+	margin-bottom:0.5em;
+}
+
+#menutext {
+	width:90vw;
+	margin-bottom:1em;
+	font-size:1.3em;	
+}
+  
+  #ulabout {
+  width:90%;
+  margin-top:20px;
+  margin-bottom:20px;
+  border: 2px ridge #7a5229;
+  padding:7px 7px 7px 7px;
+  }
+  
+  #ulabout2 {
+  width:100%;
+  display:block;
+  margin-top:20px;
+  margin-bottom:2px;
+  padding:5px 3px 0px 3px;
+  line-height:114%;
+  }
+  
+  #fileuploadwarning {
+  width:100%;
+  }
+  
+  
+footer {
+	margin-top:1em;
+}
+
+.card {
+	width:90%;
+  line-height:120%;
+  font-size:0.9em;
+  padding:4px 4px 4px 4px;
+}
+
+ #main {
+    float: none;
+	margin-left:auto;
+	margin-right:auto;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+  }
+
+#copperchat{
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+#copperchat img{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:100%;
+}
+
+#shoutbox {
+	height:45%
+	}
+
+#shoutbox-options {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#shoutbox-options label {
+  float: left;
+  overflow: hidden;
+  border-radius: 3px;
+  font-size:0.5em;
+  font-family:Georgia, serif;
+	margin-top:1em;
+  box-shadow: 2px 2px 3px #000000;
+}
+#shoutbox-options label input {
+  margin: 0 .5em 0 0;
+}
+
+#papermessage{
+	position:absolute;
+	top:10%;
+	left:4%;
+	width:40%;
+	-ms-transform: rotate(-5.5deg); /* IE 9 */
+    -webkit-transform: rotate(-5.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5.5deg);
+}
+
+#papermessage img{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#browsefiles {
+	width:60%;
+	margin: 0 auto;
+	position:absolute;
+	top:72%;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	-ms-transform: rotate(-5.5deg); /* IE 9 */
+    -webkit-transform: rotate(-5.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5.5deg);
+}
+
+#browsefiles img{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+}
+
+
+
+/*Responsive Design*/
+    
+/*HD Laptop Screen*/
+
+@media screen and (max-width:1440px) and (max-height:900px) {
+ 
+   #cairnlabel {
+    width: 21%;
+    left: 18%;
+    top: 13%;
+}
+    
+    #paperwriting {
+	top:19%;
+}
+    
+   #sb_form {
+    top: 177%;
+    left: 27%;
+    width: 38%;
+}
+    
+    #sidebar {
+    top: 191%;
+    width: 31%;
+    left: 63%;
+}
+    
+    #paperupload iframe {
+        width:18.3%;
+    }
+    }
+
+
+
+/*Smaller Laptop Screen*/
+
+@media screen and (min-height:774px) and (max-height:800px) {
+
+
+#shoutbox-input .button {
+    width: 7vw;
+}
+    
+    #cairnlabel {
+	    left: 16%;
+    width: 24%;
+}
+    
+    .cachetitle {
+	overflow: hidden;
+     height:11vh;
+      width:99%;
+}
+    
+    #paperwriting {
+	font-size:1.4em;
+    top:15%;
+}
+
+    #sb_form {
+    top: 177%;
+    left: 26%;
+    width: 65%;
+}
+    
+    #sidebar {
+    top: 196%;
+    width: 29%;
+        left:64%;
+}
+    #footergoldner {
+	width:43%;
+}
+    
+    #paperupload iframe {
+    width: 83%;
+    text-align: center;
+    height: 21.8%;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+    
+}
+
+
+/*iPad*/
+
+/*Portrait*/
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+ 
+    #cairnlabel {
+       width: 25%;
+    left: 15%;
+    top: 9%;
+    }
+    
+    #shoutbox {
+        font-size:0.8em;
+    }
+    
+    #sb_form {
+    width: 77%;
+    position: absolute;
+    left: 12%;
+    top: 106%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #inklegend {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    color: #DCA546;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 1em;
+    text-align: left;
+
+}
+    
+    #shoutbox-options {
+	font-size:1.5em;
+}
+    
+    #shoutbox-input input {
+    height: 4vh;
+    border: 2px ridge #7a5229;
+    background-image: url('assets/textentrybackground.png');
+    border-radius: 3px;
+    margin-bottom: 0.6em;
+    width: 80%;
+    padding: 0 0.5em;
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    color: #8F4700;
+    text-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 3px #000000;
+}
+    
+    
+    
+#shoutbox-input .button {
+    width: 18%;
+    height: 4vh;
+    margin-top: 0.5em;
+    background-image: url('assets/textentrybackground.png');
+    font-family: Georgia, serif;
+    color: #DCA546;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 0.9em;
+    box-shadow: 2px 2px 3px #000000;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+    
+    #sidebar {
+    width: 49%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    top: 146%;
+}
+    
+    
+    #paperupload iframe {
+    border-radius: 3px;
+    width: 75%;
+    text-align: center;
+    height: 42%;
+    margin: 0 auto;
+    position: absolute;
+    top: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 3%;
+    right: 0;
+    -ms-transform: rotate(-5.5deg);
+    -webkit-transform: rotate(-5.5deg);
+    transform: rotate(-6.3deg);
+}
+    
+    #newcache {
+    width: 96%;
+    height: auto;
+    background-color: #3E2502;
+    border: 2px inset #DCA546;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #DCA546;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1em;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+    
+    #cachelist td {
+	padding: 4% 0.88%;
+}
+    
+    #aboutbox {
+        width:96%;
+    }
+    
+    #abouttext {
+    line-height: 100%;
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 15px 15px 15px 15px;
+}
+    
+    #footergoldner{
+	width:66vw;
+}
+    .cachetitle {
+	font-size: 1.7em;
+}
+    
+    #paperupload iframe {
+    border-radius: 3px;
+    width: 81%;
+    text-align: center;
+    height: 21.5%;
+    margin: 0 auto;
+    position: absolute;
+    top: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 5%;
+    right: 0;
+    -ms-transform: rotate(-5.5deg);
+    -webkit-transform: rotate(-5.5deg);
+    transform: rotate(-6.3deg);
+}
+    
+}
+
+/*Landscape*/
+
+
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+    
+    #cairnlabel {
+    -ms-transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
+    width: 26%;
+    height: auto;
+    position: absolute;
+    left: 17%;
+    top: 12%;
+}
+    
+    #shoutbox{
+	height:47%;
+    font-size:0.7em;
+}
+    
+     #sb_form {
+    width: 46%;
+    position: absolute;
+    left: 26%;
+    top: 141%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #inklegend{
+	font-size:0.8em;
+	margin-bottom:0.85em;
+}
+ 
+    #shoutbox-options label {
+	font-size:0.6em;
+}
+    
+     #shoutbox-input input {
+  width:80%;
+         height:4.2vh;
+         margin-bottom:0.8em;
+         font-size:0.7em;
+  }
+    
+    #shoutbox-input .button {
+    width: 18%;
+    margin-bottom: 1.2em;
+    font-size:0.7em;
+}
+    
+    #sidebar{
+        width:36%;
+            left: 62%;
+    top: 175%
+    }
+    
+    #newcache {
+	margin-top:17%;
+        width:79%;
+}
+    
+    .cachetitle {
+	font-size:1.4em;
+}
+    
+    #cachelist {
+	width:103%;
+}
+    
+    
+#aboutbox {
+	width:79%;
+}
+
+    #paperwriting {
+	top:15%;
+    font-size:1.4em;
+}
+    
+    #footergoldner {
+	width:51%;
+}
+    
+}
+
+
+
+
+/*Nexus 6P*/
+/*Portrait*/
+
+@media screen and (max-width:435px) and (max-height:773px) {
+
+    #inklegend {
+	font-size:0.8em;
+}
+
+   #sb_form {
+    top: 118%;
+    left: 7%;
+    width: 83%;
+}
+ 
+    #aboutbox {
+	width:100%;
+}
+    
+    #abouttextimage {
+	width:84%;
+}
+    #abouttext figcaption {
+        width:84%;
+        font-size:0.8em;
+        height:6vh;
+    }
+    
+    #abouttext ul {
+        width:89%;
+    }
+    
+    #shoutbox {
+        height:80%;
+    }
+    
+    #shoutbox-input input {
+        width:89%;
+    }
+    
+    #shoutbox-options {
+    font-size: 1.2em;
+}
+
+    #paperwriting {
+	top:12%;
+    }
+
+    #shoutbox-input .button {
+	width: 33%;
+}
+    
+    #sidebar {
+    width: 81%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 11%;
+    top: 177%
+    }
+    
+    #newcache {
+      width:100%;  
+        margin-top:213%;
+    }
+    
+    .cachetitle {
+    width: 90%;
+    font-size: 1.5em;
+        height:14vh;
+}
+    
+    #cachelist th {
+    font-size: 0.9em;
+    }
+    
+    #cachelist tr td:first-child {
+    padding-right: 5%;
+    }
+    
+    #footergoldner {
+	width:94%;
+}
+    
+    #cairnlabel {
+	    left: 24%;
+    top: 14%;
+    z-index: -12;
+}
+    
+    #paperupload iframe {
+    border-radius: 3px;
+    width: 84%;
+    text-align: center;
+    height: 23.2%;
+    margin: 0 auto;
+    position: absolute;
+    top: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 4%;
+    right: 0;
+    -ms-transform: rotate(-5.5deg);
+    -webkit-transform: rotate(-5.5deg);
+    transform: rotate(-6.3deg);
+}
+}
+
+/*Landscape*/
+
+@media screen and (max-width:773px) and (max-height:435px) {
+    
+    #cairnlabel {
+	top: 20%;
+    width: 28%;
+    left: 13%;
+}
+    #footergoldner {
+    width: 57%;
+}
+    #sb_form {
+    width: 52%;
+    position: absolute;
+    left: 19%;
+    top: 285%;
+    }
+    
+    #inklegend {
+    font-size: 0.9em;
+    }
+    
+    #shoutbox-input input {
+    width: 77%;
+    height: 5.2vh;
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+}
+    
+    #shoutbox-input .button {
+    width: 23%;
+    }
+    
+    #sidebar {
+    width: 56%;
+    left: 17%;
+    top: 379%;
+}
+    #newcache {
+    margin-top: 117%;
+        width:90%;
+    }
+    
+    #shoutbox {
+        height:80%;
+    }
+    
+    .cachetitle {
+    margin-left: auto;
+    margin-right: auto;
+    height: 19vh;
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    opacity: 0.9;
+    color: #DCA546;
+    text-shadow: 2px 2px #000000;
+}
+    
+    #aboutbox {
+        width:90%;
+    }
+    
+    #abouttext figcaption {
+        height:5vh;
+    }
+    
+    #paperupload iframe {
+       width:18.5%;         
+
+    }
+}
+
+
+/*iPhone 6S Plus */
+
+/*Portrait*/
+
+@media screen and (max-width:414px) and (max-height:736px) {
+       
+    #descriptionbox { 
+    display: none;
+        }
+    
+    #abouttextimage {
+	width:85%;
+}
+    
+    #abouttext ul {
+        width:91%;
+    }
+    
+    #abouttext figcaption {
+        font-size:0.8em;
+        width:97%;
+    }
+    
+    #cairnlabel {
+    width: 38%;
+    left: 9%;
+    top: 14%;
+    }
+    
+    #copperchat {
+        width:99%;
+    }
+    
+    #sb_form {
+    width: 85%;
+    position: absolute;
+    left: 8%;
+    top: 97%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #shoutbox-options {
+    font-size: 1em;
+}
+    
+    #shoutbox-options label {
+	font-size:0.6em;
+}
+    
+    #chattitle {
+        width:89%;
+        top:7%;
+    }
+    
+    #shoutbox {
+        top:13%;
+        width:84%;
+        height:78%;
+    }
+    
+    #footergoldner {
+	width:87vw;
+}
+    
+    
+    #aboutbox {
+        width:100%;
+    }
+    
+    #sidebar {
+    width: 88%;
+    left: 6%;
+    top: 166%;
+}
+    
+    #newcache {
+    margin-top: 230%;
+    width: 100%;
+    margin-bottom: 9%;
+}
+    
+    ..cachetitle {
+    width: 90%;
+    font-size: 1.3em;
+}
+    
+    #cachesubtitle {
+        font-size:0.8em;
+        width:90%;
+    }
+    
+    #cachelist th {
+     font-size:0.9em;   
+    }
+    
+    
+    #cachelist tr td:first-child {
+    padding-right: 5%;
+    }
+    
+    #aboutbox{
+        width:100%;
+    }
+    
+    #abouttext{
+        font-size:0.8em;
+        margin-top: -25%;
+    }
+    
+    #inklegend {
+        font-size: 0.9em;
+    }
+    
+    #shoutbox-input input{
+        width:91%;
+    }
+    
+    #shoutbox-input .button {
+    width: 29%;
+    }
+    
+    #paperwriting {
+        top:15%;
+        font-size:1.4em;
+    }
+    
+    #paperupload iframe {
+        height:22.2%;
+    }
+}
+
+/*Landscape*/
+
+@media screen and (max-width:736px) and (max-height:414px) {
+
+
+    #cairnlabel {
+	  left: 14%;
+    top: 20%;
+    width: 25%;
+}
+
+    #sb_form {
+	width: 70%;
+    position: absolute;
+    left: 12%;
+    top: 369%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    #shoutbox-options label {
+    margin-right: 2%;
+    margin-bottom: 7%;
+    font-size: 0.6em;
+}
+
+    
+    #shoutbox-options {
+        font-size:1em;
+    }
+    
+    
+    
+    #shoutbox-input input {
+    width: 65%;
+    height: 7.2vh;
+        margin-bottom: 0%;
+        margin-top:0.5em;
+    }
+    
+    #shoutbox-input .button {
+    width: 20%;
+        height:6vh;
+    }
+    
+    #sidebar {
+    width: 53%;
+    left: 25%;
+    top: 473%;
+}
+    
+    #newcache {
+    margin-top: 123%;
+    width: 95%;
+    }
+    
+    #aboutbox {
+        width:95%;
+    }
+    
+    #footergoldner {
+	width:66%;
+}
+    
+    #abouttext figcaption{
+        height:5vh;
+    }
+    
+    #paperwriting {
+	top:25%;
+    font-size:1.4em;
+}
+    
+    .cachetitle {
+	    font-size: 1.2em;
+    overflow: hidden;
+}
+
+#paperupload iframe {
+    width: 77.5%;
+    height: 20.5%;
+}
+    
+}
+
+/*iPhone 6*/
+/*Portrait*/
+
+@media screen and (max-width:375px) and (max-height:667px) {
+
+    #inklegend {
+	font-size: 0.8em;
+}
+    
+    #cachelist th {
+    font-size: 0.8em;
+}
+    
+    #footergoldner {
+	width:100%;
+}
+    
+    #cachelist td {
+        font-size: 0.7em;
+    }
+    
+    #cachelist {
+    width: 100%;
+}
+    
+    #cachelist tr td:first-child {
+    padding-right: 0%;
+}
+    
+    #footergoldner {
+	    width: 100%;
+}
+    
+    #abouttext {
+        width:100%;
+    }
+    
+    .cachetitle {
+    overflow: hidden;
+    font-size: 1.4em;
+    width: 100%;
+}
+    
+    #abouttextimage {
+	width:94%;
+}
+    
+    #abouttext figcaption {
+        font-size:0.7em;
+        width:92%;
+    }
+    
+    #abouttext ul {
+        width:87%;
+    }
+    
+    #descriptionbox {
+	display:none;
+}
+    
+    #cairnlabel {
+	width:38%;
+}
+    
+    #shoutbox {
+	height:81%;
+}
+    
+    #newcache {
+    width: 100%;
+    margin-top: 238%;
+}
+    
+    #sidebar {
+        top:169%;
+    }
+    
+    #paperupload iframe {
+    height: 25%;
+    width: 83%;
+}
+}
+
+/*Landscape*/
+
+@media screen and (max-width:667px) and (max-height:375px) {
+
+    #shoutbox-options {
+        font-size:1em;
+    }
+    
+    #shoutbox-options label {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+    
+    #sidebar {
+    width: 56%;
+    left: 24%;
+    top: 481%;
+}
+    
+    #newcache {
+    margin-top: 129%;
+}
+    
+    #paperupload iframe {
+        height:21.5%;
+    }
+
+}
+
+/*iPhone 5*/
+/*Portrait*/
+
+@media screen and (max-width:320px) and (max-height:568px) {
+  
+    #shoutbox-options {
+    font-size: 0.8em;
+}
+    #shoutbox-input input {
+    width: 93%;
+    }
+    
+    #shoutbox-input .button {
+    width: 36%;
+}
+    
+    #sidebar {
+    width: 96%;
+    left: 3%;
+    top: 180%;
+}
+    
+    #newcache {
+    margin-top: 280%;
+    }
+    
+    #cachelist th {
+    font-size: 0.6em;
+}
+    
+    #cachelist td {
+    font-size: 0.6em;
+}
+    
+    #abouttext {
+    font-size: 0.7em;
+}  
+    #paperupload iframe {
+    height: 26.6%;
+    }
+    
+    .cachetitle {
+	font-size:1.2em;
+}
+}
+
+/*Landscape*/
+
+@media screen and (max-width:568px) and (max-height:320px) {
+
+#cachelist {
+    width: 100%;
+}
+    
+    #cachelist th {
+    font-size: 0.9em;
+    }
+    
+    #cairnlabel {
+    left: 9%;
+    top: 22%;
+}
+    
+    #sb_form {
+	top:366%;
+        width:78%;
+}
+    
+    #shoutbox-options {
+    font-size: 0.9em;
+}
+    
+    #shoutbox-input input {
+        margin-bottom: 0.6em;
+    }
+    
+    #sidebar {
+    width: 62%;
+    left: 23%;
+    top: 479%;
+}
+    
+    #newcache {
+    margin-top: 129%;
+}
+    
+    #footergoldner {
+        width:86%;
+    }
+    
+    #paperupload iframe{
+	height:23.0%;
+}
+    
+}
+
+
