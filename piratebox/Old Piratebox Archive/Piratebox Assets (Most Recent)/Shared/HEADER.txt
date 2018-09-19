@@ -1,0 +1,16 @@
+<head>
+<link rel="stylesheet" href="style.css">
+	<title>Cache No. 43 'Caddis Marian'</title>
+	<script src="/jquery.min.js"></script>
+	<script src="/scripts.js"></script>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+</head>
+<header id="header">
+	<div class="container">
+	<div id="menutext">
+			<a href="/"><span style="color:#7a5229;">'Home'</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Shared/">Cache</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about.html">Concerning</a>
+			</div>
+	</div>
+</header>
+<div class="container">
+		<div class="card">
